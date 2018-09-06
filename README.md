@@ -25,17 +25,16 @@ GitHub地址：[link] https://github.com/dandelionlxj/wc
 ​        对于字符串，单词和行数的统计，由于前段时间在学习python，所以我第一时间就想到用python写。要实现这些功能，首先就是先找到文件的位置，或者说先打开这个文件，然后遍历这个文件，三个功能对应三个函数，最后调用这三个函数然后输出结果  
 
 ### 二、代码说明：  
-
-       ```python
+```  
 def Line_count(file_name):#统计行数
 	lines=0
 	with open(file_name,'r',encoding='utf-8') as f:   #打开文件
 		for line in f:    #遍历文件
 			lines+=1
 	return lines
-       ```
+```
 
-```python
+```
 def Word_count(file_name):#统计单词数
 	words=0
 	with open(file_name,'r',encoding='utf-8') as f:
@@ -45,7 +44,7 @@ def Word_count(file_name):#统计单词数
 	return words
 ```
 
-```python 
+```
 def Character_count(file_name): #统计字符串
 	characters=0
 	with open(file_name,'r',encoding='utf-8') as f:
@@ -54,7 +53,7 @@ def Character_count(file_name): #统计字符串
 	return characters
 ```
 
-```python
+```
 #调用函数并输出结果
 line_count=Line_count(file_name)
 word_count=Word_count(file_name)
