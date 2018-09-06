@@ -26,5 +26,42 @@ GitHub地址：[link] https://github.com/dandelionlxj/wc
 
 ### 二、代码说明：  
 
-​       
+       ```python
+def Line_count(file_name):#统计行数
+	lines=0
+	with open(file_name,'r',encoding='utf-8') as f:   #打开文件
+		for line in f:    #遍历文件
+			lines+=1
+	return lines
+       ```
+
+```python
+def Word_count(file_name):#统计单词数
+	words=0
+	with open(file_name,'r',encoding='utf-8') as f:
+		for line in f:
+			word=line.split()
+			words+=len(word)
+	return words
+```
+
+```python 
+def Character_count(file_name): #统计字符串
+	characters=0
+	with open(file_name,'r',encoding='utf-8') as f:
+		for line in f:
+			characters+=len(line)
+	return characters
+```
+
+```python
+#调用函数并输出结果
+line_count=Line_count(file_name)
+word_count=Word_count(file_name)
+character_count=Character_count(file_name)
+
+print('行数：',line_count)
+print('单词数：',word_count)
+print('字母数：',character_count)
+```
 
