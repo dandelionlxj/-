@@ -27,9 +27,6 @@ line_count=Line_count(file_name)
 word_count=Word_count(file_name)
 character_count=Character_count(file_name)
 
-
-
-
 print('行数：',line_count)
 print('单词数：',word_count)
 print('字母数：',character_count)
