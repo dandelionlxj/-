@@ -18,5 +18,5 @@ GitHub地址：[link] https://github.com/dandelionlxj/wc
 | Test Report                           | 测试报告                              |    60              |                  |
 | Size Measurement                      | 计算工作量                            |      10            |                  |
 | Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |         30         |                  |
-|                                       | 合计                                  |     2050             |                  |  
+|                                       | 合计                                  |     2030             |                  |  
 
