@@ -79,21 +79,21 @@ if args.char:    ##当参数为 -c
 
 1. 空文件：
 
-   ![微信截图_20180907223604](C:\Users\ziji\Pictures\微信截图_20180907223604.png)
+   ![1](https://github.com/dandelionlxj/wc/blob/master/1.png)
 
 2. 只有一个字符的文件：
 
-   ![2](C:\Users\ziji\Pictures\2.png)
+   ![2](https://github.com/dandelionlxj/wc/blob/master/2.png)
 
 3. 只有一个world单词的文件
 
-   ![3](C:\Users\ziji\Pictures\3.png)
+   ![3](https://github.com/dandelionlxj/wc/blob/master/3.png)
 
 4. 只有一行 hello world 的文件
 
-   ![4](C:\Users\ziji\Pictures\4.png)
+   ![4](https://github.com/dandelionlxj/wc/blob/master/4.png)
 
 5. 一个源文件
 
-   ![5](C:\Users\ziji\Pictures\5.png)
+   ![5](https://github.com/dandelionlxj/wc/blob/master/5.png)
 
