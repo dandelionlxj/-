@@ -26,6 +26,15 @@ GitHub地址：[link] https://github.com/dandelionlxj/wc
 
 ### 二、代码说明：  
 ```python  
+#导入argparseku模块，处理命令行参数
+import argparse
+parser=argparse.ArgumentParser(description='this is wc.exe')
+parser.add_argument('-c', dest='char' )
+parser.add_argument('-w', dest='word' )
+parser.add_argument('-l', dest='line' )
+args=parser.parse_args()
+```
+```python  
 def Line_count(file_name):#统计行数
 	lines=0
 	with open(file_name,'r',encoding='utf-8') as f:   #打开文件
