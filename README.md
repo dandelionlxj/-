@@ -22,7 +22,7 @@ GitHub地址：[link] https://github.com/dandelionlxj/wc
 
 ### 一、解题思路：  
 
-​        对于字符串，单词和行数的统计，由于前段时间在学习python，所以我第一时间就想到用python写。要实现这些功能，首先就是先找到文件的位置，或者说先打开这个文件，然后遍历这个文件，三个功能对应三个函数，最后调用这三个函数然后输出结果  
+        对于字符串，单词和行数的统计，由于前段时间在学习python，所以我第一时间就想到用python写。要实现这些功能，首先就是先找到文件的位置，或者说先打开这个文件，然后遍历这个文件，三个功能对应三个函数，最后调用这三个函数然后输出结果  
 
 ### 二、代码说明：  
 ```python  
@@ -74,4 +74,26 @@ if args.char:    ##当参数为 -c
 	character_count=Character_count(args.char)
 	print('字母数：',character_count)
 ```
+
+### 三、测试运行  
+
+1. 空文件：
+
+   ![微信截图_20180907223604](C:\Users\ziji\Pictures\微信截图_20180907223604.png)
+
+2. 只有一个字符的文件：
+
+   ![2](C:\Users\ziji\Pictures\2.png)
+
+3. 只有一个world单词的文件
+
+   ![3](C:\Users\ziji\Pictures\3.png)
+
+4. 只有一行 hello world 的文件
+
+   ![4](C:\Users\ziji\Pictures\4.png)
+
+5. 一个源文件
+
+   ![5](C:\Users\ziji\Pictures\5.png)
 
