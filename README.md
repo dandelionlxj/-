@@ -1,4 +1,4 @@
-GitHub地址：[link] https://github.com/dandelionlxj/wc  
+GitHub地址：[link]https://github.com/dandelionlxj/Word-counter
 
 
 | PSP2.1                                | Personal Software Process Stages      | 预估耗时（分钟） | 实际耗时（分钟） |
